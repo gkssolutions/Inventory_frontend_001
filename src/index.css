@@ -1,0 +1,295 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  font-family: "Source Sance Pro", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.avater-image {
+  margin-top: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+table,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.bgimage {
+  background-color: rgb(255, 0, 17);
+}
+
+.backImg {
+  margin: 50;
+  height: 100vh;
+  padding: 9rem;
+  color: #fff;
+  font-family: Source Sans Pro, sans-serif;
+  font-weight: 400;
+  font-size: 0.8571428571428571rem;
+  line-height: 1.5;
+  /* background-color: #3457b2 !important; */
+  z-index: 2000;
+  background-image: url("https://i.pinimg.com/originals/38/a6/8f/38a68ffdb3f8585487c78dbc41831ed1.jpg");
+  background-size: cover;
+}
+
+.iconalign {
+  margin-top: 2px;
+  padding-top: 2px;
+}
+.checkboxreminder {
+  color: rgb(205, 26, 26);
+}
+.searchinput {
+  background-color: transparent;
+  height: 35px;
+  width: 250px;
+  /* border-style: groove; */
+}
+.viewedit {
+  width: 70px;
+  height: 25px;
+  background-color: #328272;
+  color: #fff;
+  border-width: 0;
+  margin: 2px;
+  text-align: "center";
+}
+.viewedit1 {
+  width: 100px;
+  height: 25px;
+  background-color: #328272;
+  color: #fff;
+  border-width: 0;
+  margin: 2px;
+  text-align: "center";
+}
+.convertToDC {
+  width: 62px;
+  height: 25px;
+  background-color: #328272;
+  color: #fff;
+  margin: 2px;
+  padding: 10px;
+}
+.itemheading {
+  margin-bottom: 15px;
+}
+.mainHeading {
+  text-align: center;
+  color: darkblue;
+}
+
+.address {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  margin-top: 5;
+}
+.signature {
+  text-align: right;
+  color: black;
+  font-weight: bold;
+}
+.alignment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.outer-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+#SalesOrderDoc {
+  width: 555px;
+  height: 950px;
+  /* background-color: rgb(255, 255, 255); */
+  padding-top: 20px;
+  
+}
+
+.left-info {
+  text-align: left;
+}
+.right-info {
+  text-align: right;
+}
+.linestyle {
+  font-weight: bold;
+  height: 3px;
+  background-color: green;
+}
+
+.companyNamw {
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #328272;
+}
+.buttonSend {
+  margin-top: 20px;
+  background-color: #328272;
+  border-radius: 10px;
+ 
+  font-weight: bold;
+  
+}
+
+.headeroner {
+  margin-left: 70px;
+  margin-top: 0%;
+}
+.outer-border {
+  background-color: #fff;
+  width: 550px;
+  height: 100%;
+}
+
+.outer-borderone {
+  background-color: #fff;
+  margin: auto;
+  padding: 10px;
+}
+.outer-borderreturnSaleList {
+  background-color: #fff;
+  margin: auto;
+  padding: 10px;
+}
+.header{
+  margin-top: 0px;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+.purchaseName {
+  margin-top: 0px;
+}
+.GstinNo {
+  margin: 0px;
+}
+.inNo {
+  margin-top: 0px;
+}
+.billNoStyle{
+  margin: 0%;
+  font-size: 12px;
+  margin-left: 30px;
+  
+}
+.gstInStyle{
+  padding-top: 0px;
+}
+.namestytle {
+  margin-top: 0px;
+}
+.dcNo {
+  margin: 0px;
+}
+table tbody tr {
+  height: 10px; /* Adjust this value as needed */
+}
+
+.amount {
+  margin-top: 0px;
+}
+.addressStyle {
+  margin-top: 0px;
+}
+.nonSales {
+  margin-top: 0%;
+}
+.projectNameStyle {
+  margin-top: 0%;
+  font-family: sans-serif;
+}
+.dcStyle {
+  margin-top: 0%;
+  text-decoration: underline;
+  font-family: sans-serif;
+ 
+}
+.costyles {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.patraname {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.allkindstyle{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 10px;
+}
+.info-container {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.plotStyle {
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 0%;  
+}
+.dccenterone {
+  margin-left: 150px;
+}
+.manameOne {
+  margin-top: 0%;
+}
+
+.fileOne {
+  margin-bottom: 15px;
+}
+.attachmentOnee {
+  margin-top: 50px;
+  
+}
+.attachmentTwo {
+  margin-top: 20px;
+  
+}
+.buttonone{
+  display:"flex" ;
+  justify-content: end;
+  margin-top: 20px;
+  background-color: #328272;
+  color: rgb(26, 24, 24);
+  height: 35px;
+  border-radius: 5px;
+  border-width: 0px;
+}
